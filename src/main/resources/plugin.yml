@@ -1,0 +1,5 @@
+name: Bedwars1058-Voidless
+version: '${project.version}'
+main: me.zuyte.Main
+authors: [ Zuyte ]
+description: Addon to add voidless mode system to bedwars1058!
