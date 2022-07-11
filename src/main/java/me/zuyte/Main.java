@@ -14,7 +14,6 @@ public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        instance = this;
         if (Bukkit.getPluginManager().getPlugin("BedWars1058") == null) {
             getLogger().severe("BedWars1058 was not found. Disabling...");
             Bukkit.getPluginManager().disablePlugin(this);
