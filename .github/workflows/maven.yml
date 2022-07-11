@@ -22,5 +22,9 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
-      run: mvn -B package --file pom.xml
+        
+    - name: Step 3 - Use the Upload Artifact GitHub Action
+      uses: actions/upload-artifact@v2
+      with: 
+          name: Bedwars1058-Voidless
+          path: /home/runner/work/Bedwars1058-Voidless/Bedwars1058-Voidless/target/Bedwars1058-Voidless-1.0.0.jar
