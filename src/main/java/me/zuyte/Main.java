@@ -26,7 +26,7 @@ public final class Main extends JavaPlugin {
             Bukkit.getConsoleSender().sendMessage(" ");
             Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&aRunning Bedwars1058-Voidless &7-&r " + "v" + getDescription().getVersion()));
             Bukkit.getConsoleSender().sendMessage(" ");
-            Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&fFound &eBedwars1058&f and hooked into."));
+            Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&fFound &eBedwars1058&f and hooked into it."));
             Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&fBedwars1058-Voidless Enabled successfully!"));
             Bukkit.getConsoleSender().sendMessage(" ");
             Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&fCreated by &cZuyte"));
