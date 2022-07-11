@@ -33,7 +33,6 @@ public final class Main extends JavaPlugin {
             Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&fCreated by &cZuyte"));
             Bukkit.getConsoleSender().sendMessage(" ");
             Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&b=========================================="));
-        }
     }
     private static void setupConfiguration() {
         YamlConfiguration yml = getCfg().getYml();
