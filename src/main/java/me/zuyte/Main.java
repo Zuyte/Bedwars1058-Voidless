@@ -14,14 +14,15 @@ public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        instance = this;
         if (Bukkit.getPluginManager().getPlugin("BedWars1058") == null) {
             getLogger().severe("BedWars1058 was not found. Disabling...");
             Bukkit.getPluginManager().disablePlugin(this);
             return;
-        } else {
-            getServer().getPluginManager().registerEvents(new finder(), this);
+        }
             cfg = new ConfigManager(this, "config", "plugins/BedWars1058/Addons/Voidless");
             setupConfiguration();
+            getServer().getPluginManager().registerEvents(new finder(), this);
             Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&b=========================================="));
             Bukkit.getConsoleSender().sendMessage(" ");
             Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&aRunning Bedwars1058-Voidless &7-&r " + "v" + getDescription().getVersion()));
