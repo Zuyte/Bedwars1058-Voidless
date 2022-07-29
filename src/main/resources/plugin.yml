@@ -1,5 +1,7 @@
 name: Bedwars1058-Voidless
 version: '${project.version}'
-main: me.zuyte.Main
+main: me.zuyte.voidless.Main
+softdepend: [ Bedwars1058 ]
+api-version: "1.13"
 authors: [ Zuyte ]
-description: Addon to add voidless mode system to bedwars1058!
+description: Automatically builds bed defence for voidless gamemode
