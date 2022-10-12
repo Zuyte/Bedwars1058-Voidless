@@ -1,5 +1,7 @@
 # Bedwars1058-Voidless
 
+:warning: The Code is not optimized, i was a beginner while creating this plugin :warning:
+
 This addon helps you create a bed defence automatically
 in a voidless match for Bedwars1058 plugin!
 
