@@ -1,5 +1,5 @@
 ⭐ Currently fully rewriting the code
-:warning: The Code is not optimized, i was a beginner while creating this plugin :warning:
+⚠ The Code is not optimized, i was a beginner while creating this plugin :warning:
 
 
 This addon helps you create a bed defence automatically
