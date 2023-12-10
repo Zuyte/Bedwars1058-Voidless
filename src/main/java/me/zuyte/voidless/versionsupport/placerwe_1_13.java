@@ -2,12 +2,12 @@ package me.zuyte.voidless.versionsupport;
 
 import com.andrei1058.bedwars.api.arena.IArena;
 import com.andrei1058.bedwars.api.arena.team.TeamColor;
-import com.cryptomorin.xseries.XMaterial;
+import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.event.Listener;
 
 public class placerwe_1_13 implements Listener {
-    public placerwe_1_13(Block bed1, TeamColor col1, int i, IArena ar1) {
+    public placerwe_1_13(Block bed1, TeamColor col1, IArena ar1) {
         int TOX = bed1.getX();
         int TOY = bed1.getY();
         int TOZ = bed1.getZ();
@@ -75,28 +75,28 @@ public class placerwe_1_13 implements Listener {
 
         // 1st Layer (Wood)
 
-        bed1.getWorld().getBlockAt(AX, TOY, TOZ).setType(XMaterial.OAK_PLANKS.parseMaterial());
+        bed1.getWorld().getBlockAt(AX, TOY, TOZ).setType(Material.getMaterial("OAK_PLANKS"));
         ar1.addPlacedBlock(bed1.getWorld().getBlockAt(AX, TOY, TOZ));
 
-        bed1.getWorld().getBlockAt(BX, TOY, BZ).setType(XMaterial.OAK_PLANKS.parseMaterial());
+        bed1.getWorld().getBlockAt(BX, TOY, BZ).setType(Material.getMaterial("OAK_PLANKS"));
         ar1.addPlacedBlock(bed1.getWorld().getBlockAt(BX, TOY, BZ));
 
-        bed1.getWorld().getBlockAt(CX, TOY, BZ).setType(XMaterial.OAK_PLANKS.parseMaterial());
+        bed1.getWorld().getBlockAt(CX, TOY, BZ).setType(Material.getMaterial("OAK_PLANKS"));
         ar1.addPlacedBlock(bed1.getWorld().getBlockAt(CX, TOY, BZ));
 
-        bed1.getWorld().getBlockAt(DX, TOY, DZ).setType(XMaterial.OAK_PLANKS.parseMaterial());
+        bed1.getWorld().getBlockAt(DX, TOY, DZ).setType(Material.getMaterial("OAK_PLANKS"));
         ar1.addPlacedBlock(bed1.getWorld().getBlockAt(DX, TOY, DZ));
 
-        bed1.getWorld().getBlockAt(EX, TOY, EZ).setType(XMaterial.OAK_PLANKS.parseMaterial());
+        bed1.getWorld().getBlockAt(EX, TOY, EZ).setType(Material.getMaterial("OAK_PLANKS"));
         ar1.addPlacedBlock(bed1.getWorld().getBlockAt(EX, TOY, EZ));
 
-        bed1.getWorld().getBlockAt(FX, TOY, EZ).setType(XMaterial.OAK_PLANKS.parseMaterial());
+        bed1.getWorld().getBlockAt(FX, TOY, EZ).setType(Material.getMaterial("OAK_PLANKS"));
         ar1.addPlacedBlock(bed1.getWorld().getBlockAt(FX, TOY, EZ));
 
-        bed1.getWorld().getBlockAt(TOX, BDY, TOZ).setType(XMaterial.OAK_PLANKS.parseMaterial());
+        bed1.getWorld().getBlockAt(TOX, BDY, TOZ).setType(Material.getMaterial("OAK_PLANKS"));
         ar1.addPlacedBlock(bed1.getWorld().getBlockAt(TOX, BDY, TOZ));
 
-        bed1.getWorld().getBlockAt(FX, BDY, TOZ).setType(XMaterial.OAK_PLANKS.parseMaterial());
+        bed1.getWorld().getBlockAt(FX, BDY, TOZ).setType(Material.getMaterial("OAK_PLANKS"));
         ar1.addPlacedBlock(bed1.getWorld().getBlockAt(FX, BDY, TOZ));
 
         // 2nd Layer (Wool)

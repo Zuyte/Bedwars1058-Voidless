@@ -7,7 +7,7 @@ import org.bukkit.block.Block;
 import org.bukkit.event.Listener;
 
 public class placerwe implements Listener {
-    public placerwe(Block bed1, TeamColor col1, int i, IArena ar1) {
+    public placerwe(Block bed1, TeamColor col1, IArena ar1) {
         int TOX = bed1.getX();
         int TOY = bed1.getY();
         int TOZ = bed1.getZ();
